@@ -71,7 +71,7 @@ http://yuilibrary.com/license/
         window.oneyui_cfg = {};
     }
 
-    if (!navigator.userAgent.match(/MSIE [1-7]/) && window.oneyui_cfg.auto) {
+    if (! navigator.userAgent.match(/MSIE [1-8]/) && window.oneyui_cfg.auto) {
         return;
     }
 
